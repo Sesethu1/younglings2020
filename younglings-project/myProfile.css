@@ -1,0 +1,116 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: flex-end;
+    flex-wrap: wrap;
+
+}
+.myProfile{
+    width: 100%;
+    height: 600px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.text{
+    font-size: 30px;
+    color: dimgray;
+    font-family: sans-serif;
+    text-shadow: 0px 15px 12px seagreen;
+}
+.line{
+    width: 200px;
+    height: 8px;
+    background-color: #17ff8d;
+    display: block;
+    position: absolute;
+    border-radius: 10px;
+    right: center;
+    box-shadow: 0px 15px 12px 0px #000;
+}
+.content{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: auto;
+    background-color: #17ff8d;
+    font-size: 20px;
+    font-family: audiowide;
+    color: #333;
+    line-height: 20px;
+    text-align: left;
+    padding: 30px;
+}
+
+.content img {
+    width: 400px;
+    height: 400px;
+}
+img {
+    border-radius: 50%;
+}
+
+b{
+    font-size: 50px;
+    color: #000;
+    font-weight: 500px;
+}
+
+.nav_bar {
+    overflow: hidden;
+    background-color: black;
+}
+
+.nav_bar a {
+    float: right;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+
+.nav_bar a:hover {
+    background-color: white;
+    color: black;
+}
+
+footer{
+    width: 100%;
+    height: auto;
+    background-color: #000;
+    color: #17ff8d;
+    font-size: 23px;
+    text-align: center;
+    line-height: 50px;
+
+}
+
+.social_media {
+    text-align: center;
+}   
+.mzamomtsha{
+    margin: 10px 10px;
+    padding: 10px;
+}
+.profile{
+    margin: 10px 10px;
+    padding: 10px;
+}
+
+.profile img {
+    width: 400px;
+    height: 400px;
+}
+img {
+    border-radius: 50%;
+}

@@ -1,0 +1,1 @@
+importScripts("https://www.gstatic.com/firebasejs/4.3.0/firebase.js")

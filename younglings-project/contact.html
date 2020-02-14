@@ -1,0 +1,43 @@
+<html>
+<head>
+    <title>Contact Form</title>
+    <link rel="stylesheet" type="text/css" href="contact.css">
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+</head>
+<body>
+    <div class="nav_bar">
+        <a href="contact.html">contact</a>
+        <a href="myProfile.html">myProfile</a>
+          <a href="About.HTML">about</a>
+          <a href="index.html">Home</a>
+        </div> 
+    <div class="contact-title">
+        <h1>Say Hello</h1>
+        <h2>always looking forward to your feedback</h2>
+    </div>
+    <form id="contact-form">
+    
+            <input type="name" id="name" class="form-control" placeholder="Your Name" required><br>
+            <input type="email" id="email" class="form-control" placeholder="Your Email" required><br>
+            <textarea name="massege" id="message" class="form-control" placeholder="Message" rows="4"></textarea><be></br>
+                <div class="g-recaptcha" data-sitekey="6LdKJtgUAAAAAKOBDZAdJMOTjuAt9SjDPoMzf-bp"></div>
+                <br/>   
+                <input type="submit" class="form-control submit" value="SEND MESSAGE">
+            </form>
+
+    </div>
+    <div class='social_media'>
+        <a href="https://www.instagram.com/msira_tiny/"><img src='insta.png' height="100px" width="100px" alt="facebook icon"></a>
+         <a href="https://twitter.com/Tiny_msira"><img src='twitter.png' height="100px" width="100px" alt="twitter icon"></a>
+         <a href="https://www.linkedin.com/feed/?trk=onboarding-landing"><img src='linked in.png' height="100px" width="100px" alt="linked in icon"></a>
+     </div>
+     
+         <footer>
+             Copyright &copy best coder 2020 Home|About|myProfile
+         </footer>
+
+         <script src="https://www.gstatic.com/firebasejs/4.3.0/firebase.js"></script>
+         <script src="form.js"></script>
+         <script src="https://kit.fontawesome.com/fb114df563.js" crossorigin="anonymous"></script>
+</body>
+</html>

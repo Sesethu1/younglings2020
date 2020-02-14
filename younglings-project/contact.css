@@ -1,0 +1,82 @@
+body{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-image: url(./hd.png);
+    background-size: cover;
+    font-family: sans-serif;
+}
+.cobtact-title{
+    margin-top: 100px;
+    color: #fff;
+    text-transform: uppercase;
+    transition: all 4s ease-in-out;
+}
+.contact-title h1{
+    font-size: 32px;
+    line-height: 10px;
+}
+.contact-title h2{
+    font-size: 16px;
+}
+form{
+    margin-top: 50px;
+    transition: all 4s ease-in-out;
+}
+.form-control{
+    width: 600px;
+    background: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid gray;
+    color: #fff;
+    font-size: 18px;
+    margin-bottom: 16px;
+}
+input{
+    height: 45px;
+}
+form .submit{
+    background: #ff5;
+    border-color: transparent;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    margin-top: 20px;
+}
+.g-recaptcha{
+    margin: 10px 500px;
+}
+
+.nav_bar {
+    overflow: hidden;
+    background-color: black;
+}
+
+.nav_bar a {
+    float: right;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+
+.nav_bar a:hover {
+    background-color: white;
+    color: black;
+}
+footer{
+    width: 100%;
+    height: auto;
+    background-color: #000;
+    color: #17ff8d;
+    font-size: 23px;
+    text-align: center;
+    line-height: 50px;
+
+}
+
+.social_media {
+    text-align: center;
+} 
